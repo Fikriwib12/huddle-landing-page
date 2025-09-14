@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://www.frontendmentor.io/solutions/product-preview-card-W9BifsU82o)
-- Live Site URL: (https://product-preview-card-silk-beta.vercel.app/)
+- Live Site URL: (https://huddle-landing-page-jet-one.vercel.app/)
 
 ## My process
 

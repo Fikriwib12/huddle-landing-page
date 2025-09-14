@@ -83,6 +83,17 @@ i {
   color: white;
   font-size: 20px;
 }
+footer {
+  margin-top: 50px;
+  color: white;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(0, 0%, 100%);
+}
 @media (max-width: 767px) {
   .logo {
     width: 50%;
