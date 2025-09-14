@@ -1,0 +1,133 @@
+:root {
+  --purple: hsl(257, 40%, 49%);
+  --magenta: hsl(300, 69%, 71%);
+}
+body {
+  background-color: var(--purple);
+  background-image: url("/images/bg-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main {
+  max-width: 1400px;
+  margin: auto;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+.logo {
+  width: 15%;
+}
+.container-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 60px;
+}
+.hero {
+  display: flex;
+  column-gap: 28px;
+  width: 90%;
+}
+.hero img {
+  width: 50%;
+  background-size: cover;
+}
+.hero .text h1 {
+  color: white;
+  font-family: "poppins";
+  font-size: 50px;
+}
+.hero .text p {
+  color: white;
+  font-family: "poppins";
+  font-size: 18.5px;
+}
+.hero .text button {
+  padding: 12px 50px;
+  border-radius: 28px;
+  border: none;
+  font-size: 18px;
+  font-family: "poppins";
+  background-color: white;
+  color: var(--purple);
+  box-shadow: 7px 9px 43px 4px rgba(96, 96, 96, 0.75);
+}
+.hero .text button:hover {
+  background-color: var(--magenta);
+  color: white;
+}
+.social-icon {
+  display: flex;
+  justify-content: end;
+  column-gap: 14px;
+  padding: 14px;
+  height: 5%;
+  margin-top: 50px;
+}
+.social-icon div {
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+i {
+  color: white;
+  font-size: 20px;
+}
+@media (max-width: 767px) {
+  .logo {
+    width: 50%;
+  }
+  main {
+    justify-content: space-between;
+  }
+  main .container-hero .hero {
+    flex-direction: column;
+  }
+  .hero img {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .hero .text h1 {
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+  }
+  .hero .text p {
+    font-size: 13px;
+    text-align: center;
+    margin: 0;
+  }
+  .hero .text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero .text button {
+    width: 80%;
+    padding: 12px 0;
+    font-size: 14px;
+  }
+  .social-icon {
+    justify-content: center;
+  }
+  .social-icon div {
+    width: 16px;
+    height: 16px;
+  }
+  i {
+    color: white;
+    font-size: 14px;
+  }
+}
