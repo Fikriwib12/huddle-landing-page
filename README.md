@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/product-preview-card-W9BifsU82o)
+- Solution URL: (https://www.frontendmentor.io/solutions/huddle-landing-page--btohhKT6f)
 - Live Site URL: (https://huddle-landing-page-jet-one.vercel.app/)
 
 ## My process
